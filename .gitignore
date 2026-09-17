@@ -1,0 +1,57 @@
+# CMake build directories
+/build/
+/build-*/
+/out/
+/cmake-build-*/
+
+# Files produced by an accidental in-source CMake build
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/CTestTestfile.cmake
+/Makefile
+/_deps/
+/Testing/
+/compile_commands.json
+
+# Developer-specific CMake configuration
+/CMakeUserPresets.json
+
+# Visual Studio / MSVC local state
+/.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+
+# Compiled artifacts outside a build directory
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.o
+*.a
+*.so
+*.dylib
+
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+*~
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

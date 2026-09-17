@@ -1,0 +1,39 @@
+# Store text consistently with LF on every platform
+* text=auto eol=lf
+
+# Windows command scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.tga binary
+*.webp binary
+*.ico binary
+*.hdr binary
+
+# Binary 3D assets
+*.glb binary
+*.fbx binary
+
+# Audio
+*.wav binary
+*.ogg binary
+*.mp3 binary
+*.flac binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+
+# Compiled shaders
+*.spv binary
+
+# Archives
+*.zip binary
+*.7z binary
+*.gz binary
